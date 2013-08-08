@@ -1,9 +1,9 @@
 <?php
 
-	/* Error reporting */
+/* Error reporting */
 ini_set('display_errors', 1);
 
- /*Require the Bootstrap file */
+/*Require the Bootstrap file */
 require 'libs/Core.php';
 
 /*
