@@ -1,4 +1,4 @@
-nbcmock
+MyMVC
 =======
 
-National Broadcasting Commission Website Mockup
+Simple custom MVC. Created to understand PHP MVC and stuff.
