@@ -1,8 +1,8 @@
 <?php
-require 'Controller.php';
-require 'Load.php';
-require 'Model.php';
-require 'Error.php';
+
+  // Requirements
+  require_once 'Controller.php';
+  require_once 'Load.php';
 
 class Core {
 
