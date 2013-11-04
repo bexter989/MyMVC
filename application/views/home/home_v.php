@@ -1,3 +1,3 @@
 <?php
-echo "Testing the home view!";
+echo "Testing the home view! <br />";
 ?>

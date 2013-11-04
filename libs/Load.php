@@ -2,7 +2,7 @@
 class Load
 {
   
-  public function view($view_name='home/home_view', $data=null)
+  public function view($view_name='home/home_v', $data=null)
   {
     // Check the $data is an array
 
@@ -32,7 +32,6 @@ class Load
     }
   }
 }
-
 
 /*
   End of Load Class

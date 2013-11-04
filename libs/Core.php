@@ -1,8 +1,10 @@
 <?php
 
   // Requirements
-  require_once 'Controller.php';
   require_once 'Load.php';
+  require_once 'Model.php';
+  require_once 'Error.php';
+  require_once 'Controller.php';
 
 class Core {
 
@@ -14,9 +16,11 @@ class Core {
   private $_blnCheckValidMethod;
   private $_controllerPathFolder;
   private $_controllerPath;
+  private $uri;
 
   // Methods
   public function __construct() {
+    $this->uri                          = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
     $this->_controllerPathFolder        = 'application/controllers/';
     $this->_url                         = $this->getUrlParams();
     $this->_getController               = $this->getControllerFromUrlSegment($this->_url);
@@ -30,19 +34,7 @@ class Core {
     echo "Controller: " . $this->_getController . "<br />";
     echo "Action: " . $this->_getAction . "<br />";
     echo "Controller File Exists: " . $this->_blnCheckValidControllerPath . "<br />";
-    $this->debug( $this->_url );
-  }
-
-  public function sets($property, $value) {
-    if (property_exists($this, $property)) {
-      $this->$property = $value;
-    }
-  }
-
-  public function gets($property) {
-    if (property_exists($this, $property)) {
-      return $this->$property;
-    }
+    $this->debug( array('Url: ' => $this->_url, 'Action: ' => $this->_getAction, 'Controller: ' => $this->_getController) );
   }
 
   private function getUrlParams() {
@@ -74,18 +66,15 @@ class Core {
   private function checkControllerFile($controllerStringFromControllerUrlSegment) {
     $path = $this->_controllerPathFolder . $controllerStringFromControllerUrlSegment . '.php';
     if ( file_exists($path) ) {
-      $this->sets($this->_controllerPath, $path);
       return true;
     }
     return false;
   }
 
   private function debug( $arrayOfItemsToDebug ) {
-    if ( is_array($arrayOfItemsToDebug) && !empty($arrayOfItemsToDebug) ) {
-      var_dump($arrayOfItemsToDebug);
-    } else {
-      echo "Sorry nothing to debug <br />";
-    }
+    echo '<pre>';
+    print_r($arrayOfItemsToDebug);
+    echo '</pre>';
   }
 
   public function startTheEngine() {
@@ -104,15 +93,20 @@ class Core {
 
       if ( method_exists($controller, $action) ) {
         $controller->$action();
+
       } else {
-        // Requested action not present
-        echo "Method not available <br />";
+        /*// Requested action not present
+        echo "Method not available <br />";*/
+        $e = new Error();
+        $e->show( $this->uri );
       }
 
     } else {
 
-      // If no, call an error function
-      echo "Sorry the Controller you requested does not exist <br />";
+      /*// If no, call an error function
+      echo "Sorry the Controller you requested does not exist <br />";*/
+      $e = new Error();
+      $e->show( $this->uri );
     }
   }
 
