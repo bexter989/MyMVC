@@ -8,7 +8,6 @@
       ?>
     </title>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-    <link rel="stylesheet" href="<?php echo base_url; ?>assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="<?php echo base_url; ?>assets/css/bootstrap-responsive.css" />
+    <link rel="stylesheet" href="<?php echo base_url; ?>assets/css/bootstrap.min.css" />
   </head>
   <body>
