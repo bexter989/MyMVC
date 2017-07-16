@@ -1,6 +1,6 @@
 <?php
-class Load
-{
+
+class Load {
   
   public function view($view_name='home/home_v', $data=null)
   {

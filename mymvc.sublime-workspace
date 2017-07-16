@@ -1,0 +1,543 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"repl",
+				"replaceWith〔function〕"
+			],
+			[
+				"control",
+				"control-label"
+			],
+			[
+				"sql",
+				"sql"
+			],
+			[
+				"html",
+				"html\thtml"
+			],
+			[
+				"TeamTNT",
+				"TeamTNT\\TNTSearch\\TNTSearchServiceProvider〔class〕"
+			],
+			[
+				"S",
+				"ScoutServiceProvider〔class〕"
+			],
+			[
+				"Team",
+				"TeamTNT\\TNTSearch\\TNTSearchServiceProvider〔class〕"
+			],
+			[
+				"Collective",
+				"Collective\\Html\\HtmlServiceProvider〔class〕"
+			],
+			[
+				"error",
+				"error_reporting〔function〕"
+			],
+			[
+				"PDO",
+				"PDOException〔class〕"
+			],
+			[
+				"requ",
+				"require〔keyword〕"
+			],
+			[
+				"method",
+				"method_exists〔function〕"
+			],
+			[
+				"match",
+				"matched_route〔variable〕"
+			],
+			[
+				"routes",
+				"routes_file"
+			],
+			[
+				"ma",
+				"match〔function〕"
+			],
+			[
+				"mat",
+				"match〔function〕"
+			],
+			[
+				"route",
+				"routes_file"
+			],
+			[
+				"config",
+				"configs"
+			],
+			[
+				"dd",
+				"dd\tdd"
+			],
+			[
+				"conf",
+				"$configs〔variable〕"
+			],
+			[
+				"controller",
+				"controller_path"
+			],
+			[
+				"requrie",
+				"require_once〔keyword〕"
+			],
+			[
+				"array_key",
+				"array_key_exists〔function〕"
+			],
+			[
+				"get",
+				"getAction〔function〕"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"rou",
+				"routes"
+			],
+			[
+				"re",
+				"$request〔variable〕"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "sshtml",
+		"selected_items":
+		[
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"find",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"ssblade",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"sshtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"finduse",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"livereload",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"themr",
+				"Themr: List themes"
+			],
+			[
+				"schemr",
+				"Schemr: List all schemes"
+			],
+			[
+				"Themr:li",
+				"Themr: List themes"
+			],
+			[
+				"edi",
+				"Project: Edit"
+			],
+			[
+				"project",
+				"Project: Edit"
+			],
+			[
+				"livereloa",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"status",
+				"HttpStatusCode: Http Status Code"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 474.0
+	},
+	"console":
+	{
+		"height": 525.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/JijiBex/code/mymvc"
+	],
+	"file_history":
+	[
+		"/C/Users/JijiBex/code/phprouter/public/index.php",
+		"/C/Users/JijiBex/code/phprouter/composer.json",
+		"/C/Users/JijiBex/code/phprouter/public/routes.php",
+		"/C/Users/JijiBex/code/phprouter/app/Request.php",
+		"/C/bin/apps/Sublime Text Build 3126 x64/Data/Packages/User/Package Control.sublime-settings",
+		"/C/Users/JijiBex/code/phprouter/README.md",
+		"/C/Users/JijiBex/code/phprouter/LICENSE",
+		"/C/bin/apps/Sublime Text Build 3126 x64/Data/Packages/User/PHP Companion.sublime-settings",
+		"/C/bin/apps/Sublime Text Build 3126 x64/Data/Packages/User/Emmet.sublime-settings",
+		"/C/Users/JijiBex/code/just-bitz/.env",
+		"/C/Users/JijiBex/code/just-bitz/config/app.php",
+		"/C/Users/JijiBex/code/just-bitz/config/ide-helper.php",
+		"/C/Users/JijiBex/code/just-bitz/routes/web.php",
+		"/C/Users/JijiBex/code/just-bitz/resources/views/projects/partials/_form.blade.php",
+		"/C/Users/JijiBex/code/just-bitz/resources/views/projects/index.blade.php",
+		"/C/Users/JijiBex/code/just-bitz/resources/views/tasks/edit.blade.php",
+		"/C/Users/JijiBex/code/just-bitz/app/Http/Controllers/TasksController.php",
+		"/C/Users/JijiBex/code/just-bitz/public/js/notifications.js",
+		"/C/Users/JijiBex/code/just-bitz/resources/views/app.blade.php",
+		"/C/Users/JijiBex/code/just-bitz/resources/views/tasks/index.blade.php",
+		"/C/Users/JijiBex/code/just-bitz/app/Http/Controllers/Auth/LoginController.php",
+		"/C/Users/JijiBex/code/just-bitz/resources/views/layouts/main.blade.php",
+		"/C/Users/JijiBex/code/just-bitz/vendor/laravel/framework/src/Illuminate/Contracts/Routing/ResponseFactory.php",
+		"/C/Users/JijiBex/code/just-bitz/resources/views/projects/create.blade.php",
+		"/C/Users/JijiBex/code/just-bitz/public/js/replace.js",
+		"/C/Users/JijiBex/code/just-bitz/app/Http/Controllers/Auth/RegisterController.php",
+		"/C/Users/JijiBex/code/just-bitz/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php",
+		"/C/Users/JijiBex/code/just-bitz/public/css/app.css",
+		"/C/Users/JijiBex/code/just-bitz/app/Http/Controllers/ProjectsController.php",
+		"/C/Users/JijiBex/code/just-bitz/app/Project.php",
+		"/C/Users/JijiBex/code/just-bitz/app/Task.php",
+		"/C/Users/JijiBex/code/just-bitz/app/Services/Slug.php",
+		"/C/Users/JijiBex/code/just-bitz/resources/views/projects/show.blade.php",
+		"/C/Users/JijiBex/code/just-bitz/resources/views/projects/edit.blade.php",
+		"/C/Users/JijiBex/code/just-bitz/resources/views/tasks/create.blade.php",
+		"/C/Users/JijiBex/code/just-bitz/resources/views/tasks/partials/_form.blade.php",
+		"/C/Users/JijiBex/code/just-bitz/resources/views/tasks/show.blade.php",
+		"/C/Users/JijiBex/code/just-bitz/database/seeds/TasksTableSeeder.php",
+		"/C/Users/JijiBex/code/just-bitz/database/seeds/DatabaseSeeder.php",
+		"/C/Users/JijiBex/code/just-bitz/database/seeds/ProjectsTableSeeder.php",
+		"/C/Users/JijiBex/code/just-bitz/resources/views/layouts/app.blade.php",
+		"/C/Users/JijiBex/code/just-bitz/app/Http/Controllers/HomeController.php",
+		"/C/Users/JijiBex/code/just-bitz/resources/views/home.blade.php",
+		"/C/Users/JijiBex/code/just-bitz/resources/views/welcome.blade.php",
+		"/C/Users/JijiBex/code/just-bitz/database/migrations/2017_07_15_100621_create_projects_and_tasks_tables.php",
+		"/C/Users/JijiBex/code/just-bitz/app/Http/Controllers/Controller.php",
+		"/C/Users/JijiBex/code/just-bitz/app/Http/Kernel.php",
+		"/C/Users/JijiBex/code/just-bitz/app/User.php",
+		"/C/Users/JijiBex/code/just-bitz/vendor/tightenco/quicksand/README.md",
+		"/C/Users/JijiBex/code/just-bitz/vendor/tightenco/quicksand/quicksand-logo.png",
+		"/C/Users/JijiBex/code/just-bitz/config/image.php",
+		"/C/Users/JijiBex/code/just-bitz/app/Console/Kernel.php",
+		"/C/Users/JijiBex/code/just-bitz/config/scout.php",
+		"/C/Users/JijiBex/code/just-bitz/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/C/Users/JijiBex/code/just-bitz/vendor/teamtnt/laravel-scout-tntsearch-driver/README.md",
+		"/C/Users/JijiBex/code/just-bitz/vendor/teamtnt/tntsearch/README.md",
+		"/C/Users/JijiBex/code/just-bitz/vendor/laravel/scout/readme.md",
+		"/C/Users/JijiBex/code/just-bitz/vendor/laravelcollective/html/readme.md",
+		"/C/Users/JijiBex/code/just-bitz/vendor/barryvdh/laravel-ide-helper/readme.md",
+		"/C/Users/JijiBex/code/just-bitz/composer.json",
+		"/C/Users/JijiBex/code/just-bitz/just-bitz.sublime-project",
+		"/C/Users/JijiBex/code/just-bitz.co/public/index.php",
+		"/C/Users/JijiBex/code/just-bitz.co/includes/initialize.php",
+		"/C/Users/JijiBex/code/just-bitz.co/includes/functions.php",
+		"/C/Users/JijiBex/code/just-bitz.co/includes/config.php",
+		"/C/Users/JijiBex/code/just-bitz.co/includes/database.php",
+		"/C/Users/JijiBex/code/just-bitz.co/includes/comment.php",
+		"/C/Users/JijiBex/code/just-bitz.co/jade/src/Everzet/Jade/Lexer/Lexer.php",
+		"/C/Users/JijiBex/code/just-bitz.co/jade/phpdoc.ini",
+		"/C/Users/JijiBex/code/just-bitz.co/jade/templates/index.jade",
+		"/C/Users/JijiBex/code/just-bitz.co/jade/phpunit.xml.dist",
+		"/C/Users/JijiBex/code/just-bitz.co/index.php",
+		"/C/Users/JijiBex/code/just-bitz.co/just-bitz.co.sublime-project",
+		"/C/Users/JijiBex/code/just-bitz.co/app/mvc/controllers/PagesController.php",
+		"/C/Users/JijiBex/code/just-bitz.co/app/core/Database.php",
+		"/C/Users/JijiBex/code/just-bitz.co/app/core/Model.php",
+		"/C/Users/JijiBex/code/just-bitz.co/app/mvc/models/User.php",
+		"/C/Users/JijiBex/code/just-bitz.co/app/routes.php",
+		"/C/Users/JijiBex/code/just-bitz.co/app/core/App.php",
+		"/C/Users/JijiBex/code/just-bitz.co/app/core/BaseController.php",
+		"/C/Users/JijiBex/code/just-bitz.co/app/core/Request.php",
+		"/C/Users/JijiBex/code/just-bitz.co/app/core/Router.php",
+		"/C/Users/JijiBex/code/just-bitz.co/composer.json",
+		"/C/Users/JijiBex/code/just-bitz.co/app/bootstrap.php",
+		"/C/Users/JijiBex/code/just-bitz.co/app/config.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/core/Database.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/core/Model.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/public/index.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/mvc/models/User.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/composer.json",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/core/App.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/database/MySQLConnection.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/database/SQLiteConnection.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/bootstrap.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/mvc/controllers/PagesController.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/database/MySQL.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/database/SQLite.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/config.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/database/Connection.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/core/BaseController.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/core/Router.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/core/Request.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/database/database.sqlite",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/support/notFound.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/support/wrappers.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/support/helpers.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/app/routes.php",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/stylesheets/style.scss",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/koala-config.json",
+		"/C/Users/JijiBex/server/codebase/just-bitz.co/just-bitz.sublime-project"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"homestead",
+			"$project",
+			"project",
+			"input",
+			"place",
+			"placeholder",
+			"<li class=\"divider\"></li>",
+			"..",
+			"5",
+			"dbh",
+			"PDO",
+			"bexter",
+			"./a",
+			"public",
+			"private",
+			"public",
+			"LOADrOUTES",
+			"router",
+			"dump(config());\ndie;",
+			"app_name",
+			"s"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mymvc.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"com",
+				"composer.json"
+			],
+			[
+				"requ",
+				"app\\Request.php"
+			],
+			[
+				".en",
+				".env"
+			],
+			[
+				"web",
+				"routes\\web.php"
+			],
+			[
+				"projcon",
+				"app\\Http\\Controllers\\ProjectsController.php"
+			],
+			[
+				"roweb",
+				"routes\\web.php"
+			],
+			[
+				"index",
+				"public\\index.php"
+			],
+			[
+				"pages",
+				"app\\mvc\\controllers\\PagesController.php"
+			],
+			[
+				"config",
+				"app\\config.php"
+			],
+			[
+				"boo",
+				"app\\bootstrap.php"
+			],
+			[
+				"app",
+				"app\\core\\App.php"
+			],
+			[
+				"boot",
+				"app\\bootstrap.php"
+			],
+			[
+				"re",
+				"app\\core\\Request.php"
+			],
+			[
+				"router",
+				"app\\core\\Router.php"
+			],
+			[
+				"wrapp",
+				"app\\support\\wrappers.php"
+			],
+			[
+				"wr",
+				"app\\support\\wrappers.php"
+			],
+			[
+				"req",
+				"app\\core\\Request.php"
+			],
+			[
+				"route",
+				"app\\routes.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

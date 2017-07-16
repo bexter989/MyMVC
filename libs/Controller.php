@@ -1,11 +1,5 @@
 <?php
 
-// Requirements
-require_once 'Load.php';
-require_once 'Model.php';
-require_once 'Error.php';
-require_once 'config.php';
-
 class Controller {
 
   // Properties

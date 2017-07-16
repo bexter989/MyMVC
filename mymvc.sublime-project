@@ -1,0 +1,48 @@
+{
+    "folders":
+    [
+        {
+            "path": "."
+        }
+    ],
+    "codeintel_settings":
+    {
+        "codeintel_database_dir": "c:/Users/JijiBex/.codeintel/databases/mymvc",
+        "codeintel_enabled_languages":
+        [
+           "JavaScript", "CSS", "PHP", "Html"
+        ],
+        "codeintel_live": true,
+        "codeintel_snippets": true,
+        "codeintel_tooltips": "popup",
+        "codeintel_tooltip_css_file": "CodeComplice/css/light.css",
+        "codeintel_max_recursive_dir_depth": 30,
+        "codeintel_scan_files_in_project": true,
+        "codeintel_exclude_scopes_from_complete_triggers": ["comment"],
+        "codeintel_language_settings":
+        {
+            "JavaScript": {
+                "codeintel_live": true,
+                "codeintel_scan_extra_dir": [],
+                "codeintel_scan_exclude_dir":["/build/", "/min/"],
+                "codeintel_scan_files_in_project": true,
+                "codeintel_max_recursive_dir_depth": 3,
+                "codeintel_selected_catalogs": ["jQuery"]
+            },
+            "CSS3": {
+                "codeintel_live": true,
+                "codeintel_scan_extra_dir": [],
+                "codeintel_scan_exclude_dir":["/build/", "/min/"],
+                "codeintel_scan_files_in_project": true,
+                "codeintel_max_recursive_dir_depth": 3
+            },
+            "PHP": {
+                "codeintel_live": true,
+                "php": "c:/wnpm/bin/7.1/php.exe",
+                "phpConfigFile": "c:/wnpm/bin/7.1/php.ini",
+                "codeintel_max_recursive_dir_depth": 20,
+                "codeintel_scan_files_in_project": true,
+            },
+        }
+    }
+}
