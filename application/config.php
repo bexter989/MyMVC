@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'controllers_dir' => '../application/controllers',
-    'models_dir' => '../application/models',
-    'views_dir' => '../application/views',
+    'controllers_dir' => '../application/controllers/',
+    'models_dir' => '../application/models/',
+    'views_dir' => '../application/views/',
 ];
