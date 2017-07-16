@@ -1,8 +1,6 @@
 <?php
 
-/* Error reporting */
 ini_set('display_errors', 1);
-
-define('base_url', 'http://mymvc/');
+error_reporting(E_ALL|E_STRICT);
 
 require '../libs/bootstrap.php';

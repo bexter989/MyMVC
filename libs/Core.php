@@ -12,7 +12,6 @@ class Core {
     private $uri;
 
     public function __construct() {
-        $this->uri                          = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
         $this->_controllerPathFolder        = 'application/controllers/';
         $this->_url                         = $this->readUrl();
         $this->_getController               = $this->getControllerFromUrlSegment($this->_url);
