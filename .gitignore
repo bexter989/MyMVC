@@ -1,1 +1,5 @@
-/.phpintel
+.phpintel/
+*.sublime-project
+*.sublime-workspace
+params.json
+.htaccess
