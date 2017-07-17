@@ -13,22 +13,11 @@ class Load {
         $view = config()->views_dir . $view_name . ".php";
 
         // Check the $view_name file exists
-        if (file_exists($view)) {
-
-            require config()->views_dir . 'header.php';
-
-            require $view;
-
-            require config()->views_dir . 'footer.php';
-
-        } else {
-
-            echo "View Dosen't exist!<br />";
-            echo $view;
+        if (!file_exists($view)) {
+            throw new Exception("View {$view_name} dosen't exist");
         }
+        require config()->views_dir . 'header.php';
+        require $view;
+        require config()->views_dir . 'footer.php';
     }
 }
-
-/*
-End of Load Class
- */

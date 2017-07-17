@@ -52,6 +52,7 @@ class Router {
         if (! method_exists($class, $method)) {
             throw new Exception("Method {$method} dosen't exist in {$class}");
         }
+        return true;
     }
 
     private function loadClass($class)
@@ -60,14 +61,14 @@ class Router {
         if (! file_exists($class_path)) {
             throw new Exception("Class {$class} dosen't exist");
         }
-        require_once $class_path;
+        require $class_path;
     }
 
     private function match() {
-        // TODO: replace this matcher with a route regex matcher here
+        // TODO: replace this matcher with a route regex matcher
         if (!array_key_exists($this->url, $this->routes[$this->method])) {
             header("HTTP/1.1 404 Not Found");
-            throw new Exception("Route not defined\n");
+            throw new Exception("Route not defined");
         }
         header("HTTP/1.1 200 OK");
         $this->matched_route = $this->routes[$this->method][$this->url];

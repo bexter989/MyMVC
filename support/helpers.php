@@ -13,7 +13,11 @@ function config()
 
 function view($view, $data = null)
 {
-    $load = new Load;
-    $load->view($view, $data);
-    return $load;
+    try {
+        $load = new Load;
+        $load->view($view, $data);
+        return $load;
+    } catch (Exception $e) {
+        echo $e->getMessage();
+    }
 }

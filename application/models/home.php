@@ -1,2 +1,0 @@
-<?php
-// Home model file

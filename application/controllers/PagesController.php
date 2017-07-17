@@ -2,13 +2,18 @@
 
 class PagesController extends Controller {
 
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
     public function index() {
-        $this->load->view('home/home_v');
+        return $this->load->view('pages/home');
     }
 
     public function about() {
         $title = 'About Page';
-        return view('home/about', compact('title'));
+        return view('pages/about', compact('title'));
     }
 
 }

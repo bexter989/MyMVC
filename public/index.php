@@ -10,3 +10,6 @@ try {
 } catch (Exception $e) {
     echo $e->getMessage();
 }
+
+// TODO: Make all exceptions call a error class to 
+// show errors properly instead of echoing out onto the screen

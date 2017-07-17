@@ -2,13 +2,11 @@
 
 class Controller {
 
-    public $load;
-    public $model;
-    public $error;
+    protected $model;
+    protected $load;
 
     public function __construct() {
-        $this->load  = new Load();
-        $this->model = new Model();
-        $this->error = new Error();
+        $this->model = new Model;
+        $this->load = new Load;
     }
 }
