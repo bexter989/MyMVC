@@ -8,3 +8,5 @@ require '../application/bootstrap.php';
 $request = new Request;
 
 echo $request->getParam(1);
+
+var_dump($request);

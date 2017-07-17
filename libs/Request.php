@@ -2,9 +2,9 @@
 
 class Request
 {
-    protected $url;
-    protected $action;
-    protected $method;
+    protected $url = "";
+    protected $action = "";
+    protected $method = "";
     protected $params;
 
     public function __construct(){
@@ -14,7 +14,7 @@ class Request
     private function setup(){
         $this->url = $this->parse($_SERVER['REQUEST_URI'], function($url){
             $url = parse_url(trim($url, '/'), PHP_URL_PATH);
-            if ($url === "") {$url = '/'; }
+            if ($url === "") {return $url = '/'; }
             return $url;
         });
 
@@ -27,9 +27,10 @@ class Request
 
         $this->params = $this->parse($this->url, function($params){
             $params = explode('/', $params);
-            return array_slice($params, 1);
+            $params = array_slice($params, 1);
+            var_dump($params);
+            return $params;
         });
-        var_dump($this);
     }
 
     public function getParam($index)
