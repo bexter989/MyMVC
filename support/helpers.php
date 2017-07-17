@@ -10,3 +10,10 @@ function config()
     }
     return $obj;
 }
+
+function view($view, $data = null)
+{
+    $load = new Load;
+    $load->view($view, $data);
+    return $load;
+}

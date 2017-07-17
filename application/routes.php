@@ -1,11 +1,10 @@
 <?php
 
 $route->get('/', function(){
-    echo "Welcome!";
+    $title = "Welcome page";
+    return view('home/home_v', compact('title'));
 });
-$route->get('about', function(){
-    echo "About!";
-});
+$route->get('about', 'PagesController@about');
 
 $route->post('/', function(){
     echo "Recieved a post request";

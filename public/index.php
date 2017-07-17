@@ -5,7 +5,8 @@ error_reporting(E_ALL|E_STRICT);
 
 require '../application/bootstrap.php';
 
-$request = new Request;
-$route = new Router($request);
-
-var_dump($route);
+try {
+    new Router(new Request);
+} catch (Exception $e) {
+    echo $e->getMessage();
+}

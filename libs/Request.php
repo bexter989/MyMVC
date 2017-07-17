@@ -13,7 +13,8 @@ class Request {
     private function setup() {
         $this->url = $this->parse($_SERVER['REQUEST_URI'], function ($url) {
             $url = parse_url(trim($url, '/'), PHP_URL_PATH);
-            if ($url === "") {return $url = '/';}
+            if ($url === "") {
+                $url = '/';}
             return $url;
         });
 
