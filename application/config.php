@@ -12,5 +12,5 @@ return [
     'mysqlPass' => 'alpha',
 
     // Options are MySQLDatabase and SQLiteDatabase for now
-    'defaultDBMS' => 'MySQLDatabase',
+    'defaultDBMS' => 'SQLiteDatabase',
 ];

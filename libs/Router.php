@@ -32,18 +32,14 @@ class Router {
                 return $closure();
         }
 
-        // explode $matched_url
         $directive = explode('@', $this->matched_route);
-        // set the class name
         $controller = $directive[0];
-        // set the method name
         $method = $directive[1];
-        // load the class
+
         $this->loadClass($controller);
-        // check the method exists in the class
+
         $class = new $controller;
         $this->checkMethodExists($class, $method);
-        // call the class and method
         $class->$method();
     }
 
