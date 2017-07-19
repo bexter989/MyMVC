@@ -11,16 +11,15 @@ class Router {
         $this->request = $request;
         $this->url = $this->request->url();
         $this->method = $this->request->method();
-        $this->loadRoutes();
         $this->boot();
     }
 
-    public function boot() {
+    private function boot() {
+        $this->loadRoutes();
         $this->match();
-        $this->dispatch();
     }
 
-    private function dispatch() {
+    public function dispatch() {
         // if closure
         if (is_callable($this->matched_route)) {
             // Dose it need a parameter?

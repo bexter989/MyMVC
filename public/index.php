@@ -5,10 +5,7 @@ error_reporting(E_ALL|E_STRICT);
 
 require '../application/bootstrap.php';
 
-try {
-    new Router(new Request);
-} catch (Exception $e) {
-    echo $e->getMessage();
-}
+$router = new Router(new Request);
+$router->dispatch();
 
 // TODO: Make all exceptions call a error class to show errors properly instead of echoing out onto the screen
