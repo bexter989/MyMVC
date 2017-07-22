@@ -1,12 +1,17 @@
 <?php
 
-class MyError {
+namespace lib;
 
-    public function __construct() {
+class MyError
+{
+
+    public function __construct()
+    {
         $this->load = new Load();
     }
 
-    public function show($url) {
+    public function show($url)
+    {
         $data = array(
             'pageTitle' => 'Error: Page not Found',
             'msg'       => 'The page at <strong>[ ' . $url . ' ]</strong> dosent exist<br />',

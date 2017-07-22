@@ -1,5 +1,7 @@
 <?php
 
+namespace lib;
+
 class SQLiteDatabase implements ConnectionString
 {
     public function dsn()

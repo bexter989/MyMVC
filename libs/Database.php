@@ -1,5 +1,7 @@
 <?php
 
+namespace libs;
+
 class Database extends PDO
 {
     public function __construct(ConnectionString $con)

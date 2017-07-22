@@ -1,8 +1,12 @@
 <?php
 
-class Load {
+namespace libs;
 
-    public function view($view_name = 'home/home_v', $data = null) {
+class Load
+{
+
+    public function view($view_name = 'home/home_v', $data = null)
+    {
         // Check the $data is an array
         if (is_array($data)) {
             // Make variables from each item in the array

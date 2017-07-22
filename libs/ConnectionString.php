@@ -1,5 +1,7 @@
 <?php
 
+namespace lib;
+
 interface ConnectionString
 {
     public function dsn();

@@ -1,12 +1,16 @@
 <?php
 
-class Controller {
+namespace libs;
+
+class Controller
+{
 
     protected $model;
     protected $load;
 
-    public function __construct() {
-        $this->model = new Model;
-        $this->load = new Load;
+    public function __construct(Model $model, Load $load)
+    {
+        $this->model = $model;
+        $this->load  = $load;
     }
 }

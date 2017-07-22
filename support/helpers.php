@@ -1,5 +1,7 @@
 <?php
 
+use libs\Load;
+
 /**
  * Config wrapper
  * @return stdClass Populated with config items
@@ -7,11 +9,11 @@
 function config()
 {
     $configs = require '../application/config.php';
-    $obj = new stdClass;
-    foreach ($configs as $k => $v)
-    {
+    $obj     = new stdClass;
+    foreach ($configs as $k => $v) {
         $obj->$k = $v;
     }
+
     return $obj;
 }
 

@@ -1,5 +1,7 @@
 <?php
 
+namespace libs;
+
 class Request
 {
     protected $url    = "";
@@ -29,7 +31,6 @@ class Request
     {
         return $this->ifExists($this->params, $index);
     }
-
 
     /**
      * Returns an array of parameters if they are present in the url

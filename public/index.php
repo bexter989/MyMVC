@@ -1,7 +1,10 @@
 <?php
 
+use libs\Router;
+use libs\Request;
+
 ini_set('display_errors', 1);
-error_reporting(E_ALL|E_STRICT);
+error_reporting(E_ALL | E_STRICT);
 
 require '../application/bootstrap.php';
 
