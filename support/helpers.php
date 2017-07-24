@@ -13,7 +13,6 @@ function config()
     foreach ($configs as $k => $v) {
         $obj->$k = $v;
     }
-
     return $obj;
 }
 

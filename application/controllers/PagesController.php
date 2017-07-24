@@ -1,15 +1,11 @@
 <?php
 
+namespace App\Controllers;
+
 use libs\Controller;
 
 class PagesController extends Controller
 {
-
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
     public function index()
     {
         return $this->load->view('pages/home');

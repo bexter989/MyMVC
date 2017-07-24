@@ -42,8 +42,9 @@ class Router
         $method     = $directive[1];
 
         $this->loadClass($controller);
-
-        $class = new $controller;
+        $controllerNamespace = 'App\Controllers';
+        $fqnController = $controllerNamespace .'\\'. $controller;
+        $class = new $fqnController;
         $this->checkMethodExists($class, $method);
         $class->$method();
     }
@@ -60,17 +61,17 @@ class Router
     {
         $class_path = config()->controllers_dir . $class . '.php';
         if (!file_exists($class_path)) {
-            throw new Exception("Class {$class} dosen't exist");
+            throw new \Exception("Class {$class} dosen't exist");
         }
         require $class_path;
     }
 
     private function match()
     {
-        // TODO: replace this matcher with a route regex matcher
+        // TODO: replace this matcher with a regex matcher
         if (!array_key_exists($this->url, $this->routes[$this->method])) {
             header("HTTP/1.1 404 Not Found");
-            throw new Exception("Route not defined");
+            throw new \Exception("Route not defined");
         }
         header("HTTP/1.1 200 OK");
         $this->matched_route = $this->routes[$this->method][$this->url];
